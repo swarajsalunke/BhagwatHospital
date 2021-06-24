@@ -251,11 +251,152 @@ header .fa-bars{
 	transform: rotate(45deg);
 }
 
+.counter .box-container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 2rem;
+}
+.counter .box-container .box{
+	margin: 2rem 5rem;
+	text-align: center;
+}  
+.counter .box-container .box i{
+	color: var(--blue);
+	font-size: 5rem;
+}
+.counter .box-container .box span{
+	color: var(--black);
+	font-size: 3rem;
+	display: block;
+	padding: 1rem 0;
+}
+
+.counter .box-container .box h3{
+	color: #666;
+}
 
 
 
 
+.contact {
+	background: var(--black);
+}
+.contact .heading{
+	color: #fff;
+}
+.contact form .inputBox{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
 
+.contact form .inputBox input, select{
+	height: 4rem;
+	width: 49%;
+	padding: 0 1rem;
+	margin: 1rem 0;
+	font-size: 1.7rem;
+	color: var(--black);
+}
+.contact form textarea{
+	height: 10rem;
+	resize: none;
+	padding: 1rem;
+	font-size: 1.5rem;
+	width: 100%;
+}
+.contact form input[type="submit"]{
+	width: 20rem;
+}
+.contact form input[type="submit"]:hover{
+	background: var(--black);
+}
+
+.post .box-container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.post .box-container .box{
+	width: 30rem;
+	margin: 2rem 1rem;
+	overflow: hidden;
+	border-radius: .5rem;
+	box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, .3);
+}
+
+.post .box-container .box img{
+	height: 20rem;
+	width: 100%;
+	object-fit: cover;
+}
+.post .box-container .box .content{
+	padding: 0 1.5rem;
+}
+.post .box-container .box .content span{
+	color: #666;
+	font-size: 1.5rem;
+	display: block;
+	padding: 1rem 0;
+}
+.post .box-container .box .content h3{
+	font-size: 2rem;
+	color: var(--blue);
+}
+
+.post .box-container .box .content p{
+	font-size: 1.7rem;
+	color: var(--black);
+}
+
+
+.footer{
+	background:var(--black);
+}
+
+.footer p{
+	font-size:1.5rem ;
+	color: #eee;
+	padding: 1rem 0;
+}
+
+.footer .col-md-4:nth-child(1) a{
+	font-size: 3rem;
+	color: #fff;
+}
+.footer .col-md-4:nth-child(1) a span{
+	color: var(--blue);
+}
+.footer a{
+	font-size: 2rem;
+	color: #ccc;
+	display: block;
+}
+.footer h3{
+	color:white;
+	font-size: 3rem;
+}
+
+.footer a:hover{
+	color: var(--blue);
+}
+
+.footer .credit{
+	color: #fff;
+	width: 80%;
+	margin: 0;
+	padding: 2rem 0;
+	padding-bottom: 4rem;
+	border-top: .1rem solid #ccc !important;
+}
+
+.footer .credit span{
+	color: var(--blue);
+}
+.footer h1{
+	text-align: center;
+}
 
 
 
@@ -302,6 +443,10 @@ header .fa-bars{
   	top: 50%;
   	opacity: 1;
   }
-
-
+  .contact form .inputBox input, select{
+  	width: 100%;
+  }
+  .contact form input[type="submit"]{
+		width: 100%;
+	}
 }
